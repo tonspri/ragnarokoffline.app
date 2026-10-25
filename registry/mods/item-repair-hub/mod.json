@@ -1,0 +1,241 @@
+{
+  "name": "item-repair-hub",
+  "version": "2.0.0-alpha.6",
+  "author": "DaggerHashimoto",
+  "description": "Fix equip restrictions on Agni Sword and Heretic Acolyte Boots, restore Cocytus Armor bonuses and autocasts, and manage transfer restrictions for included items. Search the repair list and switch fixes on or off. No modified app required.",
+  "requires": {
+    "app": ">=1.7.0",
+    "era": "renewal"
+  },
+  "settingsPage": "settings/index.html",
+  "settings": [
+    {
+      "key": "legacy_trade",
+      "type": "boolean",
+      "default": true,
+      "label": "Previous grouped permission choice (upgrade migration only)"
+    },
+    {
+      "key": "boots_family",
+      "type": "boolean",
+      "default": true,
+      "label": "Heretic Acolyte Boots: explicit Acolyte and Merchant families"
+    },
+    {
+      "key": "agni_family",
+      "type": "boolean",
+      "default": true,
+      "label": "Agni Sword: Swordsman, Merchant and Thief families"
+    },
+    {
+      "key": "agni_trade_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: allow trading"
+    },
+    {
+      "key": "agni_trade_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: block trading"
+    },
+    {
+      "key": "agni_storage_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: allow personal storage"
+    },
+    {
+      "key": "agni_storage_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: block personal storage"
+    },
+    {
+      "key": "agni_guild_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: allow guild storage"
+    },
+    {
+      "key": "agni_guild_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: block guild storage"
+    },
+    {
+      "key": "agni_cart_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: allow cart"
+    },
+    {
+      "key": "agni_cart_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: block cart"
+    },
+    {
+      "key": "agni_mail_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: allow mail"
+    },
+    {
+      "key": "agni_mail_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Agni Sword: block mail"
+    },
+    {
+      "key": "cocytus_base",
+      "type": "boolean",
+      "default": true,
+      "label": "Cocytus Armor: bonuses and autocasts repair"
+    },
+    {
+      "key": "cocytus_trade_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: allow trading"
+    },
+    {
+      "key": "cocytus_trade_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: block trading"
+    },
+    {
+      "key": "cocytus_storage_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: allow personal storage"
+    },
+    {
+      "key": "cocytus_storage_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: block personal storage"
+    },
+    {
+      "key": "cocytus_guild_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: allow guild storage"
+    },
+    {
+      "key": "cocytus_guild_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: block guild storage"
+    },
+    {
+      "key": "cocytus_cart_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: allow cart"
+    },
+    {
+      "key": "cocytus_cart_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: block cart"
+    },
+    {
+      "key": "cocytus_mail_allow",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: allow mail"
+    },
+    {
+      "key": "cocytus_mail_block",
+      "type": "boolean",
+      "default": false,
+      "label": "Cocytus Armor: block mail"
+    },
+    {
+      "key": "individual_permissions_ready",
+      "type": "boolean",
+      "default": true,
+      "label": "Individual item choices saved (upgrade migration only)"
+    },
+    {
+      "key": "item_5286_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Pecopeco Hairband: transfer permission repair"
+    },
+    {
+      "key": "item_5628_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Pecopeco Hairband (F variant): transfer permission repair"
+    },
+    {
+      "key": "item_15383_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Temporal Transcendent Robe: transfer permission repair"
+    },
+    {
+      "key": "item_22204_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Temporal Transcendent Boots: transfer permission repair"
+    },
+    {
+      "key": "item_20939_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Temporal Transcendent Manteau: transfer permission repair"
+    },
+    {
+      "key": "item_32221_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Temporal Transcendent Ring: transfer permission repair"
+    },
+    {
+      "key": "item_2127_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Secular Mission: transfer permission repair"
+    },
+    {
+      "key": "item_7621_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Token of Siegfried: transfer permission repair"
+    },
+    {
+      "key": "item_100906_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "All-in-One Buff Potion: transfer permission repair"
+    },
+    {
+      "key": "item_14545_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Battle Manual 300%: transfer permission repair"
+    },
+    {
+      "key": "item_400115_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Item 400115: transfer permission repair"
+    },
+    {
+      "key": "item_470443_permissions",
+      "type": "boolean",
+      "default": true,
+      "label": "Heretic Acolyte Boots: transfer permission repair"
+    }
+  ],
+  "tags": [
+    "equipment",
+    "bugfix",
+    "quality-of-life",
+    "renewal"
+  ]
+}

@@ -1,0 +1,275 @@
+[
+  {
+    "key": "agni",
+    "id": 500118,
+    "name": "Agni Sword",
+    "category": "equipment",
+    "categoryLabel": "Equipment access",
+    "aliases": "Agni_Sword_US swordsman knight crusader merchant thief",
+    "summary": "Restore the Swordsman family alongside Merchant and Thief.",
+    "description": "Allows both Swordsman advancement branches, alongside Merchant and Thief families, through normal and advanced job tiers. The item keeps its existing level requirement, stats and effects.",
+    "toggles": [
+      {
+        "key": "agni_family",
+        "label": "Enable the class-family repair"
+      }
+    ],
+    "permissions": "agni",
+    "scope": "Agni Sword only",
+    "categories": [
+      "equipment",
+      "permissions"
+    ]
+  },
+  {
+    "key": "boots",
+    "id": 470443,
+    "name": "Heretic Acolyte Boots",
+    "category": "equipment",
+    "categoryLabel": "Equipment access",
+    "aliases": "Stray_Acolyte_US inquisitor acolyte priest monk merchant blacksmith whitesmith mastersmith",
+    "summary": "Explicit Acolyte and Merchant-branch permissions.",
+    "description": "Allows the Acolyte, Priest and Monk branches, plus Merchant and Blacksmith branches, at minimum level 100. The existing requirements for advanced job tiers still apply. Its separate transfer switch allows trading, personal storage and mail.",
+    "toggles": [
+      {
+        "key": "boots_family",
+        "label": "Enable the class-family repair"
+      },
+      {
+        "key": "item_470443_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "scope": "Heretic Acolyte Boots only",
+    "migratedPermissionKey": "item_470443_permissions",
+    "categories": [
+      "equipment",
+      "permissions"
+    ]
+  },
+  {
+    "key": "cocytus",
+    "id": 450481,
+    "name": "Cocytus Armor",
+    "category": "effects",
+    "categoryLabel": "Bonuses & autocasts",
+    "aliases": "Cocytus_Armor_US cold bolt storm gust jack frost grade refine armor",
+    "summary": "Keep the working bonuses, grade effects and +12 autocasts together.",
+    "description": "Restores refine and grade bonuses. At +12, normal melee attacks can trigger Cold Bolt and Storm Gust. Grade A adds Cold Bolt → Jack Frost. This switch enables the complete armor repair.",
+    "toggles": [
+      {
+        "key": "cocytus_base",
+        "label": "Enable bonuses and autocasts repair"
+      }
+    ],
+    "permissions": "cocytus",
+    "scope": "Cocytus Armor only",
+    "notice": "The supplied repair blocks dropping, trading, personal storage and cart by default. The menus below can override trading, storage and cart. Keep original adds no extra permission patch; the active armor repair and other mods still apply.",
+    "categories": [
+      "effects",
+      "permissions"
+    ]
+  },
+  {
+    "key": "item_5286",
+    "id": 5286,
+    "name": "Pecopeco Hairband",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Pecopeco_Hairband ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_5286_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_5286_permissions",
+    "scope": "Pecopeco Hairband only"
+  },
+  {
+    "key": "item_5628",
+    "id": 5628,
+    "name": "Pecopeco Hairband (F variant)",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "F_Pecopeco_Hairband ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_5628_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_5628_permissions",
+    "scope": "Pecopeco Hairband (F variant) only"
+  },
+  {
+    "key": "item_15383",
+    "id": 15383,
+    "name": "Temporal Transcendent Robe",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Time_Overload_Robe Time Overload",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_15383_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_15383_permissions",
+    "scope": "Temporal Transcendent Robe only"
+  },
+  {
+    "key": "item_22204",
+    "id": 22204,
+    "name": "Temporal Transcendent Boots",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Time_Overload_Boots Time Overload",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_22204_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_22204_permissions",
+    "scope": "Temporal Transcendent Boots only"
+  },
+  {
+    "key": "item_20939",
+    "id": 20939,
+    "name": "Temporal Transcendent Manteau",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Time_Overload_Hood Time Overload",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_20939_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_20939_permissions",
+    "scope": "Temporal Transcendent Manteau only"
+  },
+  {
+    "key": "item_32221",
+    "id": 32221,
+    "name": "Temporal Transcendent Ring",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Time_Overload_Ring Time Overload",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_32221_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_32221_permissions",
+    "scope": "Temporal Transcendent Ring only"
+  },
+  {
+    "key": "item_2127",
+    "id": 2127,
+    "name": "Secular Mission",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": "Secular_Mission ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_2127_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_2127_permissions",
+    "scope": "Secular Mission only"
+  },
+  {
+    "key": "item_7621",
+    "id": 7621,
+    "name": "Token of Siegfried",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": " ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage, mail. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_7621_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_7621_permissions",
+    "scope": "Token of Siegfried only"
+  },
+  {
+    "key": "item_100906",
+    "id": 100906,
+    "name": "All-in-One Buff Potion",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": " ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage, mail. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_100906_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_100906_permissions",
+    "scope": "All-in-One Buff Potion only"
+  },
+  {
+    "key": "item_14545",
+    "id": 14545,
+    "name": "Battle Manual 300%",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": " ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage, mail. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_14545_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_14545_permissions",
+    "scope": "Battle Manual 300% only"
+  },
+  {
+    "key": "item_400115",
+    "id": 400115,
+    "name": "Item 400115",
+    "category": "permissions",
+    "categoryLabel": "Trade & storage",
+    "aliases": " ",
+    "summary": "Individual transfer permission repair.",
+    "description": "Allows trading, personal storage, mail. Turn this repair off to inherit the server’s restrictions after a restart. Other mods, item binding and server rules can still apply.",
+    "toggles": [
+      {
+        "key": "item_400115_permissions",
+        "label": "Enable transfer permission repair"
+      }
+    ],
+    "migratedPermissionKey": "item_400115_permissions",
+    "scope": "Item 400115 only",
+    "notice": "The display name for item 400115 is not verified yet. The repair still targets the same ID as your working original mod."
+  }
+]
+
+
+
