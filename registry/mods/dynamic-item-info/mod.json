@@ -12,6 +12,11 @@
     "pre-renewal"
   ],
   "icon": "images/icon.png",
+  "screenshots": [
+    "images/weapon-comparison.png",
+    "images/item-details.png",
+    "images/accessory-comparison.png"
+  ],
   "requires": {
     "era": "any"
   },

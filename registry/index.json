@@ -703,7 +703,11 @@
         "ui"
       ],
       "icon": "images/icon.png",
-      "screenshots": [],
+      "screenshots": [
+        "images/weapon-comparison.png",
+        "images/item-details.png",
+        "images/accessory-comparison.png"
+      ],
       "requires": {
         "mods": [],
         "era": "any",
@@ -715,8 +719,20 @@
       },
       "files": [
         {
+          "path": "images/accessory-comparison.png",
+          "sha256": "e119e0d715363e55cc2ba9ac4134eb9fecf403c81336cb3b2fda68e319ceaa8a"
+        },
+        {
           "path": "images/icon.png",
           "sha256": "2f4b9a87beb8f1db8f3b5b59865905609e4da11f8a44283262691f07ff7d2a27"
+        },
+        {
+          "path": "images/item-details.png",
+          "sha256": "65fe208042dda2b03d53148ef4e93f42f692755c530bde618bfe628e30b146ac"
+        },
+        {
+          "path": "images/weapon-comparison.png",
+          "sha256": "2630493a0fb8f45703f53ee6cf91c6476eaea4eaa88de1412043f01fe35bcaf9"
         }
       ]
     },
